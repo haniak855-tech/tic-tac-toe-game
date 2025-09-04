@@ -8,7 +8,7 @@ def printboard(xState, zState):
         three='x' if xState[3] else ('o' if zState[3] else 0)
         four='x' if xState[4] else ('o' if zState[4] else 0)
         five='x' if xState[5] else ('o' if zState[5] else 0)
-        six='x' if xState[6] else ('o' if zState[6] else 0)
+        six='x' if xState[6] else ('o' if zState[6] else 0) 
         seven='x' if xState[7] else ('o' if zState[7] else 0)
         eight='x' if xState[8] else ('o' if zState[8] else 0)
         print(f"{zero} | {one} |{two}")
